@@ -30,8 +30,8 @@ const Contact = () => {
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
             { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/kunal-thorat-248a54272" },
-            { icon: <FaWhatsapp />, link: "https://wa.me/91702040105" },
-            { icon: <FaPhone />, link: "tel:+91702040105" },
+            { icon: <FaWhatsapp />, link: "https://wa.me/+917020406105" },
+            { icon: <FaPhone />, link: "tel:+917020406105" },
             { icon: <FaEnvelope />, link: "mailto:kunalthorat581@gmail.com" },
           ].map((item, index) => (
               <a
