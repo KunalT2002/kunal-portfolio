@@ -24,7 +24,7 @@ import webStromeLogo from './assets/tech_logo/webStrome.png';
 
 // Experience Section Logo's
 import deccanlogicLogo from './assets/company_logo/deccanLogicLogo.jpg';
-import snMasterMindLogo from './assets/company_logo/SN_MasterMind.png';
+import IOWeb3Technologies from './assets/company_logo/IOWeb3Technologies.png';
 
 // Education Section Logo's
 import SPPUlogo from './assets/education_logo/Savitribai_Phule_Pune_University_Logo.png';
@@ -102,16 +102,17 @@ export const experiences = [
     },
     {
         id: 1,
-        img: snMasterMindLogo,
+        img: IOWeb3Technologies,
         role: "Fullstack Engineer",
-        company: "SN MasterMind Private Limited",
-        date: "April 2023 - March 2024",
-        desc: "Contributed to a banking software platform for Path-Sanstha financial institutions, handling deposits, loans, accounts and daily collections. Developed full-stack features using React (frontend) and Spring Boot / Java (backend), with MySQL database integration. Built a React Native mobile application for field agents to perform and track daily collections for Path-Sansthas.  Designed and tested RESTful APIs using Postman and managed source code with Git. ",
+        company: "IOWeb3 Technologies  ",
+        date: "April 2023 - Oct 2024",
+        desc: "Built the full frontend of DevBoard, a Jira-inspired sprint management platform — implementing Kanban boards, drag-and-drop task reordering, and sprint planning workflows using React.js and TypeScript. Implemented real-time board sync across concurrent users using WebSockets and Socket.io; integrated ServiceWorkers for browser push notifications, replacing a polling-based system. Architected a reusable TypeScript component library with custom React hooks and Redux Toolkit, reducing duplicate code across 15+ views by ~40% and cutting UI bug rate significantly. Applied JWT and RBAC at the UI layer to enforce role-based access across admin, member, and viewer flows; consumed 10+ RESTful APIs and managed source code via Git and GitHub. ",
         skills: [
             "React Native",
+            "React",
             "Redux",
-            "Java",
-            "SpringBoot",
+            "Node",
+            "Express",
             "CSS",
             "SQL",
         ],
@@ -167,11 +168,11 @@ export const projects = [
     },
     {
         id: 2,
-        title: "PathWin – Banking Software",
+        title: "DevBoard — Developer Sprint & Task Management",
         description:
-            "Contributed to a banking system managing deposits, loans, accounts, and collections. Developed secure backend modules using Spring Boot with RBAC-based access control. Built REST APIs ensuring transaction integrity and seamless communication between frontend and backend systems.",
+            "Engineered the full frontend of a Jira-inspired sprint management platform supporting Kanban boards, drag and-drop task reordering, and sprint planning workflows across admin, member, and viewer roles.  Built real-time board sync across concurrent users using WebSockets and Socket.io; integrated ServiceWorkers for browser push notifications replacing a polling-based system. Deployed full-stack application on AWS EC2 behind Nginx via GitHub Actions CI/CD; managed build pipeline, environment variables, S3 file attachments, and production server configuration. ",
         // image: pathwinLogo,
-        tags: ["React JS", "Spring Boot", "Java", "REST API", "RBAC"]
+        tags: ["React JS", "Node", "Express", "REST API", "RBAC","SQL"]
     },
     {
         id: 3,
