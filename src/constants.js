@@ -105,7 +105,7 @@ export const experiences = [
         img: IOWeb3Technologies,
         role: "Fullstack Engineer",
         company: "IOWeb3 Technologies  ",
-        date: "April 2023 - Oct 2024",
+        date: "April 2022 - Oct 2024",
         desc: "Built the full frontend of DevBoard, a Jira-inspired sprint management platform — implementing Kanban boards, drag-and-drop task reordering, and sprint planning workflows using React.js and TypeScript. Implemented real-time board sync across concurrent users using WebSockets and Socket.io; integrated ServiceWorkers for browser push notifications, replacing a polling-based system. Architected a reusable TypeScript component library with custom React hooks and Redux Toolkit, reducing duplicate code across 15+ views by ~40% and cutting UI bug rate significantly. Applied JWT and RBAC at the UI layer to enforce role-based access across admin, member, and viewer flows; consumed 10+ RESTful APIs and managed source code via Git and GitHub. ",
         skills: [
             "React Native",
